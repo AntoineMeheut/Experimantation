@@ -6,9 +6,7 @@ This is a simple Terraform-Outscale template configured for ephemeral developmen
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)]([![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitlab.com/demo-gitpod/experimentation)
-
-)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitlab.com/demo-gitpod/experimentation)
 
 This project requires Outscale Credentials. To use your `ACCESS_KEY_ID` and `SECRETS_ACCESS_KEY` environment variables, [check out the relevant docs](https://docs.outscale.com/fr/userguide/Tutoriel-D%C3%A9marrer-dans-le-Cloud-OUTSCALE.html). 
 
