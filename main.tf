@@ -9,11 +9,14 @@ terraform {
 
 provider "outscale" {
   # Configuration options
-  access_key_id = var.access_key_id
-  secret_key_id = var.secret_key_id
-  region = var.region
-  x509_cert_path = "/myrepository/certificate/client_ca.crt"
-  x509_key_path = "/myrepository/certificate/client_ca.key"
+  access_key_id  = var.access_key_id
+  secret_key_id  = var.secret_key_id
+  region         = "eu-west-2"
+  endpoints {
+    api  = "api.eu-west-2.outscale.com"
+    }
+  x509_cert_path = "/tmp/client-certificate.pem"
+  x509_key_path  = "/tmp/client-key.pem"
 }
 
 
