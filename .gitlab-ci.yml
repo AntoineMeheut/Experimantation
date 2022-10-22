@@ -20,19 +20,19 @@ stages:
 init:
   stage: prepare
   script:
-    - gitlab-terraform init
+    - echo "gitlab-terraform init"
 
 validate:
   stage: validate
   script:
-    - gitlab-terraform init
-    - gitlab-terraform validate
+    - echo "gitlab-terraform init"
+    - echo "gitlab-terraform validate"
 
 plan:
   stage: build
   script:
-    - gitlab-terraform plan
-    - gitlab-terraform plan-json
+    - echo "gitlab-terraform plan"
+    - echo "gitlab-terraform plan-json"
   artifacts:
     name: plan
     paths:
@@ -47,7 +47,7 @@ apply:
   environment:
     name: production
   script:
-    - gitlab-terraform apply
+    - echo "gitlab-terraform apply"
   dependencies:
     - plan
   when: manual
