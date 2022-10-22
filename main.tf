@@ -19,8 +19,8 @@ provider "outscale" {
 
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-830c94e3"
-  instance_type = "t2.micro"
+  ami           = "XXX"
+  instance_type = "XXX"
 
   tags = {
     Name = var.instance_name
