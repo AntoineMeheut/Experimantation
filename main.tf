@@ -9,6 +9,11 @@ terraform {
 
 provider "outscale" {
   # Configuration options
+  access_key_id = var.access_key_id
+  secret_key_id = var.secret_key_id
+  region = var.region
+  x509_cert_path = "/myrepository/certificate/client_ca.crt"
+  x509_key_path = "/myrepository/certificate/client_ca.key"
 }
 
 
