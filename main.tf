@@ -1,15 +1,14 @@
 terraform {
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.27"
+    outscale = {
+      source = "outscale-dev/outscale"
+      version = "0.5.4"
     }
   }
-
-  required_version = ">= 0.14.9"
 }
-provider "aws" {
 
+provider "outscale" {
+  # Configuration options
 }
 
 
