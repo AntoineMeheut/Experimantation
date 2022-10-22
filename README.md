@@ -1,6 +1,7 @@
 # Experimentation a Terraform-Outscale starter template
 
-This is a simple Terraform-Outscale template configured for ephemeral development environments on Gitpod.
+This is a simple Terraform-Outscale template configured for cloud development environments on Gitpod.
+Outscale has two CLIs, one AWS type and one specific to Outscale, in this template we use the AWS CLI.
 
 ## Next Steps
 
