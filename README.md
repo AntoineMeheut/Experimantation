@@ -1,12 +1,12 @@
-# Experimentation (Code only focus)
+# Experimentation with code only focus
 
-* Sample Application with Python and Flask inspired from [sheetalbongale](https://github.com/sheetalbongale/austin-sharedmobility-webapp),
-* To demonstrate how a developer can focus only on his code and carry out all his work only from his repository, while immediately obtaining the result of his development in production.
+* Sample application with python and flask inspired from [sheetalbongale](https://github.com/sheetalbongale/austin-sharedmobility-webapp),
+* To demonstrate how a developer can focus only on his code and carry out all his work only from his repository, while immediately obtaining the result of its developments in production.
 
 ## This demonstration uses
 
 * [Gitpod](https://gitpod.io) to develop code,
-* Python and Flash for website development,
+* Python and flask for website development,
 * [Scalingo](https://scalingo.com) to deploy in production on Outscale.
 
 ## Develop in One Click
