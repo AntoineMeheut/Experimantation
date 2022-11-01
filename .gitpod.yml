@@ -1,17 +1,16 @@
-image:
-  file: .gitpod.Dockerfile
+ports:
+  - port: 5000
+    onOpen: open-preview
 
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: Initalise terraform
-    init: |
-      export AWS_ACCESS_KEY_ID="$AWS_ACCESS_KEY_ID"
-      export AWS_SECRET_ACCESS_KEY="$AWS_SECRETS_ACCESS_KEY"
-      export AWS_DEFAULT_REGION="eu-west-2"
-    command: |
-      terraform init
-      terraform plan
-
+  - before: |
+      export FLASK_APP=flaskr
+      export FLASK_ENV=development
+  - init: |
+      pip install -e .
+      flask init-db
+  - command: |
+      flask run
 vscode:
   extensions:
-    - hashicorp.terraform
+    - ms-python.python
