@@ -11,7 +11,7 @@
 
 ## Develop in One Click
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/demo-gitpod/experimentation)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AntoineMeheut/Experimantation)
 
 ## Deploy in One Click
 
