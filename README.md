@@ -1,16 +1,18 @@
-# Experimentation a Terraform-Outscale starter template
+# Experimentation (Code only focus)
 
-This is a simple Terraform-Outscale template configured for cloud development environments on Gitpod.
-Outscale has two CLIs, one AWS type and one specific to Outscale, in this template we use the AWS CLI.
+* Sample Application with Python and Flask inspired from https://github.com/sheetalbongale/austin-sharedmobility-webapp,
+* To demonstrate how a developer can focus only on his code and carry out all his work only from his repository, while immediately obtaining the result of his development in production.
 
-## Next Steps
+## This demonstration uses
 
-Click the button below to start a new development environment:
+* Gitpod https://www.gitpod.io/ to develop code
+* Python and Flash for website development
+* Scalingo https://scalingo.com to deploy in production on Outscale
+
+## Develop in One Click
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitlab.com/demo-gitpod/experimentation)
 
-This project requires Outscale Credentials. To use your `ACCESS_KEY_ID` and `SECRETS_ACCESS_KEY` environment variables, [check out the relevant docs](https://docs.outscale.com/fr/userguide/Tutoriel-D%C3%A9marrer-dans-le-Cloud-OUTSCALE.html). 
+## Deploy in One Click
 
-## Get Started With Your Own Project
-
-To get started with Terraform-Outscale on Gitpod, add a [`.gitpod.yml`](./.gitpod.yml) file which contains the configuration to improve the developer experience on Gitpod. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://gitlab.com/demo-gitpod/experimentation)
