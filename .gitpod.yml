@@ -13,4 +13,5 @@ tasks:
       flask run
 vscode:
   extensions:
+    - ms-toolsai.jupyter
     - ms-python.python
