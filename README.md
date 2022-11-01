@@ -11,8 +11,8 @@
 
 ## Develop in One Click
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AntoineMeheut/Experimantation)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AntoineMeheut/Experimentation)
 
 ## Deploy in One Click
 
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/AntoineMeheut/Experimantation)
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/AntoineMeheut/Experimentation)
