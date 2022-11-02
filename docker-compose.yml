@@ -1,10 +1,10 @@
-version: '3'
+version: '3.4'
 
 services:
-  web:
-    build: .
+  experimentation:
+    image: experimentation
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     ports:
-      - 5000:5000
-    volumes:
-      - .:/usr/src/app
-    stop_signal: SIGKILL
+      - 5002:5002
